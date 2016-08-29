@@ -12,12 +12,19 @@
         <slf4j.version>1.7.10</slf4j.version>
         <log4j.version>1.2.17</log4j.version>
         <fastjson.version>1.2.7</fastjson.version>
+        <disruptor.version>3.3.0</disruptor.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>15.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lmax</groupId>
+            <artifactId>disruptor</artifactId>
+            <version>${disruptor.version}</version>
         </dependency>
 
         <dependency>
